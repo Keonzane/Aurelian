@@ -1,14 +1,13 @@
 const carouselImages = [
-    "images/ring/Custom Ring 1.png",
-    "images/ring/Custom Ring 2.png",
-    "images/ring/Custom Ring 3.png",
     "images/ring/Custom Ring 4.png",
-    "images/ring/Custom Ring 5.png",
-    "images/ring/Custom Ring 6.png",
     "images/ring/Custom Ring 7.png",
-    "images/ring/Custom Ring 8.png",
     "images/ring/Custom Ring 9.png",
-    "images/ring/Custom Ring 10.png"
+    "images/bracelet/Custom Bracelet 2.png",
+    "images/bracelet/Custom Bracelet 5.png",
+    "images/bracelet/Custom Bracelet 9.png",
+    "images/necklace/Custom Necklace 1.png",
+    "images/necklace/Custom Necklace 4.png",
+    "images/necklace/Custom Necklace 7.png"
 ];
 
  let currentIndex = 0;

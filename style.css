@@ -12,7 +12,25 @@ body {
 }
 
 /* Header and Footer */
-.main-header {
+.main-header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0.25rem 2rem; 
+    box-sizing: border-box; /* Ensures padding is included in the width */ 
+    margin-bottom: 2rem; /* Added whitespace below the header */ 
+} 
+
+.main-footer { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 1rem 2rem; 
+    box-sizing: border-box; /* Ensures padding is included in the width */ 
+    margin-top: 2rem; 
+}
+
+.home-page .main-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +42,7 @@ body {
     z-index: 10; /* Keeps it on top of the carousel */
 }
 
-.main-footer {
+.home-page .main-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -105,6 +123,9 @@ body {
 
 /* Custom background color to match the design */
 .bg-brand-beige {
+    background-color: #E6DACE;
+}
+.bg-brand-beige-home {
     background-color: #E6DACE99;
 }
 
@@ -234,6 +255,14 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    text-align: center;
+}
+.about-images .tagline {
+    grid-column: 1 / -1; 
+    margin-top: 1rem;
+    font-style: italic;
+    color: #5a4a3f;
+    font-size: 1.1rem;
 }
 
 .about-img {
